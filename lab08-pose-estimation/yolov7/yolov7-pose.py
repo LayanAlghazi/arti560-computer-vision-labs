@@ -89,7 +89,7 @@ h, w, _ = frame.shape
 out = cv2.VideoWriter("skydiving_yolov7.mp4",
                       cv2.VideoWriter_fourcc(*'mp4v'),
                       10,
-                      (w, h))
+                      (256, 256))
 
 #-------------------------------------------------------------------------------#
 
