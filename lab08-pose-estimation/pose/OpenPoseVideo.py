@@ -6,7 +6,7 @@ import os
 
 parser = argparse.ArgumentParser(description='Run keypoint detection')
 parser.add_argument("--device", default="cpu", help="Device to inference on")
-parser.add_argument("--video_file", default="sample_video.mp4", help="Input Video")
+parser.add_argument("--video_file", default="C:\arti560-computer-vision-labs\lab08-pose-estimation\media\skydiving.mp4", help="Input Video")
 
 args = parser.parse_args()
 
